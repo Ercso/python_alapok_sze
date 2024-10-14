@@ -22,9 +22,13 @@
 
 import random
 
-dobas = input("Fej vagy iras? "))
+penz = ("fej", "iras")
+dobas = random.choice(penz)
 
-if random_dobas == dobas:
+kerdes = input("Fej vagy iras? ")
+print(f"A gep dobasa: {dobas}")
+
+if kerdes == dobas:
     print("eltalaltad")
 else:
     print("nem talalt")
