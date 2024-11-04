@@ -25,10 +25,18 @@ def masodik_feladat():
 3. Számok listázása és összegzése
 Írj egy programot, amely bekér  n számot a felhasználótól, majd egy while ciklussal megkérdezi a felhasználót, hogy szeretne-e újabb számot megadni. Addig folytassa a program a számok bekérését, amíg a felhasználó igennel válaszol. A program végén jelenítse meg a bekért számok összegét.
 b) jelenítse meg a bekért számokat (lista használata)
-
-
 """
+def harmadik_feladat():
+    folyt = True
+    osszeg = 0
 
+    while folyt:
+        szam1 = int(input("Adj meg egy számot! "))
+        osszeg += szam1
+        keres = input("Akarsz még egy számot?(i/n) ")
+        if keres != "i":
+            folyt = False
+    print(osszeg)
 
 """
 4. Két szám közötti számok
@@ -95,5 +103,5 @@ Készíts egy programot, amely kiírja az 1-től 10-ig terjedő szorzótáblát 
 """
 #elso_feladat()
 #masodik_feladat()
-
+harmadik_feladat()
 #negyedik_feladat()
