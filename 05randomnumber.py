@@ -22,9 +22,9 @@
 
 import random
 
-dobas = input("Fej vagy iras? "))
+#dobas = input("Fej vagy iras? ")
 
-if random_dobas == dobas:
-    print("eltalaltad")
-else:
-    print("nem talalt")
+#if random_dobas == dobas:
+#    print("eltalaltad")
+#else:
+ #   print("nem talalt")
